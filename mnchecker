@@ -49,10 +49,10 @@ userDirName = ".mnchecker"
 
 #==========================================================
 # Currency defaults
-defaultCurrencyHandle = "vivo"
-defaultCliBin = "/usr/local/bin/vivo-cli"
-defaultDaemonBin = "/usr/local/bin/vivod"
-defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivocore")
+defaultCurrencyHandle = "seed2need"
+defaultCliBin = "/usr/local/bin/seed2need-cli"
+defaultDaemonBin = "/usr/local/bin/seed2needd"
+defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".seed2need")
 
 #==========================================================
 # Explorer URL
@@ -60,7 +60,7 @@ defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivoco
 #=============================
 # chainz.cryptoid.info
 # NOTE: For this explorer, you'll have to set the user agent to "Mozilla/5.0" further below.
-defaultBlockExplorerBlockCountUrlTemplate = "http://chainz.cryptoid.info/{currencyHandle}/api.dws?q=getblockcount"
+defaultBlockExplorerBlockCountUrlTemplate = "https://explorer.seed2need.me/api/getblockcount"
 
 #=============================
 # vivo.explorerz.top:3003
